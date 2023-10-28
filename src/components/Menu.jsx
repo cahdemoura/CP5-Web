@@ -1,9 +1,9 @@
-import {NavBar} from '../Estilos/estilo'
+
 
 const Menu = () => {
   return (
     <>
-      <NavBar>
+      <nav>
         <ul>
           <li>
             <a href="/">HOME</a>
@@ -18,7 +18,7 @@ const Menu = () => {
             <a href="/tema">Tema</a>
           </li>
         </ul>
-      </NavBar>
+      </nav>
     </>
   );
 };
