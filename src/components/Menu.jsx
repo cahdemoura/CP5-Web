@@ -1,12 +1,12 @@
-
+import { NavMenu } from "../Estilos/estilo";
 
 const Menu = () => {
   return (
     <>
-      <nav>
+      <NavMenu>
         <ul>
           <li>
-            <a href="/">HOME</a>
+            <a href="/">Inicio</a>
           </li>
           <li>
             <a href="/sobre">Sobre</a>
@@ -18,7 +18,7 @@ const Menu = () => {
             <a href="/tema">Tema</a>
           </li>
         </ul>
-      </nav>
+      </NavMenu>
     </>
   );
 };
