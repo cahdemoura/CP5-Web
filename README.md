@@ -1,6 +1,6 @@
 # React + Vite
 
-Ao abrir o projeto instale as dependências com: npm install
+Ao abrir o projeto instale as dependências com: <i>npm install</i>
 <br/>
 Após instalado, inicie o projeto: npm run dev
 
