@@ -1,6 +1,7 @@
 # React + Vite
 
 Ao abrir o projeto instale as dependências com: npm install
+<br/>
 Após instalado, inicie o projeto: npm run dev
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
