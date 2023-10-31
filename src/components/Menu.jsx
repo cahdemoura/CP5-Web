@@ -1,9 +1,12 @@
-import { NavMenu } from "../Estilos/estilo";
+import { Button, NavMenu } from "../Estilos/estilo";
 
-const Menu = () => {
+const Menu = (props) => {
+
   return (
     <>
       <NavMenu>
+        <h2>EcoSystem</h2>
+        <Button onClick={props.theme}>Tema</Button>
         <ul>
           <li>
             <a href="/">Inicio</a>
