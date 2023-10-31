@@ -1,10 +1,10 @@
-import { BlockDiv, Border } from "../Estilos/estilo";
+import { BlockDiv, Border, ImgCards } from "../Estilos/estilo";
 
 const Block = (props) => {
     return (
         <>
             <BlockDiv>
-                <img src="/photo1.jpg" alt="" srcset="" />
+                <ImgCards src={props.img} alt="" srcset="" />
                 <div>
                     <h1>{props.title}</h1>
                     <Border></Border>

@@ -7,9 +7,9 @@ const Banner = () => {
             <img src="/ES.jpg" alt="" srcset="" />
 
             <div>
-                <h1>Impulsionando o Meio Ambiente</h1>
-                <h2>Melhorando o mundo</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quae exercitationem accusamus, quibusdam cum tempore at impedit, rem expedita id eaque sunt facilis quasi nam esse ipsa repellat qui provident.</p>
+                <h1>Explorando o Maravilhoso</h1>
+                <h2>Mundo dos Ecossistemas</h2>
+                <p>Descubra a beleza e a complexidade da vida na Terra. Aprecie a diversidade da natureza em no máximo duas linhas.</p>
                 <Button2>Saiba mais!</Button2>
             </div>
 

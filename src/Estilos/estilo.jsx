@@ -7,7 +7,7 @@ export const lightTheme = {
 }
 
 export const darkTheme = {
-  corFundo: '#252525',
+  corFundo: '#239c51',
   corTexto: 'white',
 
 }
@@ -43,6 +43,16 @@ export const Button = styled.button`
     cursor: pointer;
   }
 
+  a{
+    text-decoration: none;
+    color:black;
+    width: 100%;
+  }
+
+  a:hover{
+    color: white;
+  }
+
 `
 export const Button2 = styled.button`
   display: flex;
@@ -66,7 +76,7 @@ export const Button2 = styled.button`
 
 
 export const NavMenu = styled.nav`
-  background-color: ${lightTheme.corFundo};
+  background-color: ${props => props.theme.corFundo};
   max-width: 1024px;
   padding:0 4px ;
   margin: 0 auto;
@@ -133,7 +143,8 @@ export const Main = styled.main`
     max-width: 1024px;
     margin: 0 auto;
     padding: 0 16px;
-    background-color: ${lightTheme.corFundo};
+    padding-bottom: 16px;
+    background-color: ${props => props.theme.corFundo};
   `
 
 export const GridCards = styled.div`
@@ -149,6 +160,7 @@ img {
   width: 100%;
   height: auto;
   display: block;
+  opacity: 90%;
 }
 
 div {
@@ -158,4 +170,42 @@ div {
   width: 800px;
   text-align: left;
   color: white;
-}`
+}
+
+p{
+  padding: 4px;
+  background-color: #9b9b9b7f;
+  border-radius: 8px;
+}
+`
+
+export const Input = styled.input`
+  border:none;
+  outline:none;
+
+  &:focus{
+    border-bottom: 2px solid blue;
+  }
+  
+`
+
+export const CepCheck = styled.div`
+  display: flex;
+`
+
+export const MainSobre = styled.main`
+text-align: center;
+
+section{
+  padding-top: 200px;
+}
+`
+
+export const PerfilPhoto = styled.img`
+border-radius: 100%;
+max-width: 256px;
+`
+export const ImgCards = styled.img`
+object-fit: cover;
+
+`

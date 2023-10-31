@@ -1,6 +1,6 @@
 import axios from "axios"
 import { useState } from "react"
-import { GridCards, Main } from "../Estilos/estilo";
+import { Button, CepCheck, Main, Input } from "../Estilos/estilo";
 import Banner from "../components/Banner";
 import Block from "../components/Block";
 
@@ -49,10 +49,12 @@ const Contato = () => {
                 </section>
 
                 <section>
-                    <h1>Entre em contato</h1>
+                    <h1>Se cadastre para receber nossa newsletter em casa!</h1>
 
-                    <input type="text" placeholder="Texto" value={cep} onChange={handleCepChange} />
-                    <button onClick={pesquisaCep}>Pesquisar</button>
+                    <CepCheck>
+                        <Input type="text" placeholder="Cep" value={cep} onChange={handleCepChange} />
+                        <Button onClick={pesquisaCep}>Pesquisar</Button>
+                    </CepCheck>
 
                     {error && <p>{error}</p>}
                     {data.cep && (
@@ -63,6 +65,7 @@ const Contato = () => {
                             <p>Bairro: {data.bairro} </p>
                             <p>UF: {data.uf}</p>
                             <p>DDD: {data.ddd}</p>
+                            <Button><a href="/">Cadastrar</a></Button>
                         </div>
                     )
                     }

@@ -1,11 +1,28 @@
-import Menu from "../components/menu";
+import { GridCards, Main, MainSobre, PerfilPhoto } from "../Estilos/estilo";
+import Banner from "../components/Banner";
+import Block from "../components/Block";
 
-const Sobre =()=>{
-    return(
+const Sobre = () => {
+    return (
         <>
-        <Menu/>
-        <h1>Sobre</h1>
+            <MainSobre>
+
+                <section>
+                    <h1>Projeto Desenvolvido por:</h1>
+                    <PerfilPhoto src="/Perfil.jpg" alt="" srcset="" />
+                    <div>
+                        <h2>Caique De Moura</h2>
+                        <h3>RM99474</h3>
+                    </div>
+
+                </section>
+
+                <footer>
+
+                </footer>
+            </MainSobre>
         </>
+
     )
 }
 
